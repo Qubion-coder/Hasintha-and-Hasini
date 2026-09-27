@@ -498,9 +498,7 @@ export default function WeddingInvitation() {
                 {/* Peach glow effect */}
                 <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-64 h-64 bg-theme-300/20 blur-[50px] rounded-full pointer-events-none" />
 
-                {/* Corner floral accents */}
-                <img src="/images/left.png" alt="" className="absolute -top-2 -left-4 w-32 h-32 md:w-44 md:h-44 opacity-70 object-contain mix-blend-multiply pointer-events-none z-0 rotate-12" />
-                <img src="/images/right.png" alt="" className="absolute -top-2 -right-4 w-32 h-32 md:w-44 md:h-44 opacity-70 object-contain mix-blend-multiply pointer-events-none z-0 -rotate-12" />
+                {/* Corner floral accents removed */}
 
                 {/* Arch outline decoration */}
                 <div className="absolute inset-3 sm:inset-5 border-[0.5px] border-theme-400/40 rounded-t-full pointer-events-none z-10" />
@@ -593,15 +591,13 @@ export default function WeddingInvitation() {
             {/* Wedding Details Section */}
             <section className="cv-auto py-24 md:py-32 w-full flex flex-col items-center px-4 relative">
               <div className="section-floral-overlay absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden z-0">
-                {/* Top-left: left.png on mobile, mandala on desktop */}
-                <InviteImage src="/images/left.png" className="block md:hidden absolute -left-4 -top-4 w-[200px] h-auto opacity-80 object-contain" alt="" loading="eager" />
+                {/* Top-left: mandala on desktop */}
                 <InviteImage src={mandalaImage} className="hidden md:block absolute -left-10 top-8 w-[460px] h-auto mix-blend-multiply opacity-55 -rotate-[8deg]" alt="" />
                 {/* Top-right: mandala on desktop only */}
                 <InviteImage src={mandalaImage} className="hidden md:block absolute -right-10 top-2 w-[430px] h-auto mix-blend-multiply opacity-50 rotate-[12deg]" alt="" />
                 {/* Bottom-left: mandala on desktop only */}
                 <InviteImage src={mandalaImage} className="hidden md:block absolute -left-6 bottom-8 w-[420px] h-auto mix-blend-multiply opacity-40 rotate-[180deg]" alt="" />
-                {/* Bottom-right: right.png on mobile, mandala on desktop */}
-                <InviteImage src="/images/right.png" className="block md:hidden absolute -right-4 bottom-0 w-[200px] h-auto opacity-80 object-contain" alt="" loading="eager" />
+                {/* Bottom-right: mandala on desktop */}
                 <InviteImage src={mandalaImage} className="hidden md:block absolute -right-8 bottom-14 w-[470px] h-auto mix-blend-multiply opacity-45 -rotate-[170deg]" alt="" />
               </div>
 
