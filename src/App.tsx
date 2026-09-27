@@ -10,7 +10,7 @@ import { Sparkles, MapPin, Calendar, Clock, Volume2, VolumeX, Image as ImageIcon
  */
 
 const mandalaImage = "/images/mandala_gold.png";
-const brideGroomImage = "/1.jpg";
+const brideGroomImage = "/hasintha.jpg";
 
 // Google Apps Script Web App URL for handling form submissions
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz6LYhl7nxJDoxXoAGPOK5iRvEE3__shBNrfe-8i6zx5aHoRnDlTJfEnZ8xLrp6yyT-_A/exec";
